@@ -1,4 +1,4 @@
-package org.acme.commandmode;
+package br.com.saulocn.alura.resource;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
