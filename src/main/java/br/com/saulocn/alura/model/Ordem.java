@@ -14,7 +14,7 @@ public class Ordem {
     private String status;
     private String tipo;
     @Column(name = "user_id")
-    private Long usuario;
+    private Long userId;
 
     public void setData(LocalDate data) {
         this.data = data;
@@ -32,7 +32,7 @@ public class Ordem {
         this.tipo = tipo;
     }
 
-    public void setUsuario(Long usuario) {
-        this.usuario = usuario;
+    public void setUserId(Long userId) {
+        this.userId = userId;
     }
 }
